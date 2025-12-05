@@ -1,0 +1,196 @@
+@font-face {
+  font-family: 'Dancing Script';
+  src: url('fonts/DancingScript-VariableFont_wght.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+html::selection{
+    background-color: #F2F6D0;
+    color: #443627;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F2F6D0;
+    color: #443627;
+}
+
+h1, h2 ,h3{
+    color: #D98324; 
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 15px;
+}
+
+
+h1 {
+    margin-top:120px;
+    align-items:center;
+    text-align: center;
+}
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* ABOUT / JOURNEY SECTION */
+.Journey {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.Journey h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* IMAGE SECTION */
+.image-section {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.image-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Drawing images (first row) */
+.drawings, .realities {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.drawings img, .realities img {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.drawings img:hover, .realities img:hover {
+    transform: scale(1.05);
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  z-index: 3;
+  background: #443627;
+}
+
+.navbar .logo {
+  color: #EFDCAB;
+  font-family: 'Dancing Script',sans-serif; 
+  font-size: 28.8px;
+  font-weight: bold;
+  display: flex;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-size: 18px;
+}
+
+.nav-links li a {
+  color: #EFDCAB; 
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #D98324;
+}
+.misvis {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 50px auto;
+    gap: 30px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.misvis .mission, .misvis .Vision {
+    background-color: #EFDCAB;
+    color: #1E2022;
+    padding: 30px;
+    border-radius: 8px;
+    flex: 1 1 400px;
+    box-sizing: border-box;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.misvis .mission:hover, .misvis .Vision:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px #C9D6DF;
+}
+.core-values {
+    background-color: #F2F6D0;
+    color: #443627;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.core-values .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #D98324;
+}
+
+.values-row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.value {
+    background-color: #EFDCAB;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.value:hover {
+    transform: scale(1.05);
+    box-shadow:0 4px 10px  #EFDCAB;
+}
+
+.value img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.value-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #D98324;
+}
