@@ -75,7 +75,7 @@ h1{
 }
 .contact-cont {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* two equal columns */
+    grid-template-columns: 1.75fr 1fr; /* two equal columns */
     gap: 20px;
     height: 100vh;
 }

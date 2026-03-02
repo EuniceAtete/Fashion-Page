@@ -30,17 +30,16 @@
     </div>
     <div class="contact-left">
         <h1>Get In Touch</h1>
-        <form action="#" method="post" class="contact-form">
+        <form action="#" method="post" class="contact-form" enctype="multipart/form-data">
             <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Your name" required>
-
+            <input type="text" id="name" name="name" placeholder="Your name" pattern="[A-Za-z]{8-30}">
             <label for="email">Email</label>
             <input type="text" id="email" name="email" placeholder="Your email" required>
-
             <label for="message">Message</label>
             <textarea id="message" name="message" placeholder="Message" rows="5" required></textarea>
-
             <button type="submit">Submit</button>
+            <input type="file" value="Upload">
+            <input type="reset" value="Clear">
         </form>
     </div>   
 </div>
