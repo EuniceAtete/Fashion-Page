@@ -27,4 +27,4 @@ This project was created to practice **front-end development fundamentals**, inc
 
 ## Author
 
-Eunice Atete
+Eunice Atete 
